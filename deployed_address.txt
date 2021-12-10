@@ -1,0 +1,8 @@
+Deployed Network:
+
+Ropsten
+
+Smart Contracts:
+
+NFTMarket deployed to: 0x4D620CF5A835c72f050E339CdeEb7068900Eeb54
+NFT deployed to: 0x92B88fcE6123dd8b3a64b8ABacBa998643FfaAfb

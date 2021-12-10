@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.app-sidebar {
+  height: 100%;
+  border-right: solid #d3d3d3 1px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 75px;
+  border-bottom: solid #d3d3d3 1px;
+}
+
+.app-main {
+  height: 100%;
+  width: 100%;
+  background-color: #fffffd;
+}
+
+/* marketplace */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.grid-item {
+  outline: solid #d3d3d3 1px;
+  max-height: 400px;
+}
+
+.grid-item .header img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.grid-item .footer {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-item .footer .info {
+  width: 90%;
+}
+
+.grid-item .footer .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marketplace-grid__row-empty {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.marketplace-grid__row-empty h1 {
+  margin-bottom: 0;
+}
+
+/* dashboard */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-rows: 600px auto;
+}
+
+.dashboard-grid__row-top--grid-item {
+  height: 100%;
+  outline: solid #d3d3d3 1px;
+}
+
+.dashboard-grid__row-middle {
+  display: grid;
+  margin: 20px;
+}
+
+.dashboard-grid__row-middle-content-area {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard-grid__row-middle--grid-item {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 25px;
+  border: solid #d3d3d3 1px;
+  border-radius: 3px;
+}
+
+.dashboard-grid__row-middle--grid-item-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-grid__row-middle--grid-item-text-area {
+  display: block;
+  height: 100%;
+  min-width: 100%;
+  max-width: 200px;
+}
+
+.dashboard-grid__row-middle--grid-item-footer {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.dashboard-grid__row-middle--grid-item--icon {
+  height: 200px;
+  width: 200px;
+}
+
+.nft-submit-button {
+  padding: 25px;
+}
+
+.dashboard-grid__row-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.dashboard-grid__row-empty {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.dashboard-grid__row-empty h1 {
+  margin-bottom: 0;
+}
+
+.my-nft-grid__title {
+  margin: 20px;
+}
+
+/* app header */
+
+.app-header__nav {
+  display: flex;
+}
+
+.app-header__nav h2 {
+  margin-right: 10px;
+}
+
+.app-header__nav .active {
+  /* margin-right: 10px; */
+  color: blue;
+}
+
+.app-header__connect-wallet-wrapper {
+  display: flex;
+}
+
+.app-header__connect-wallet-wrapper .wallet-tag {
+  margin-right: 5px;
+}
+
+.wallet-identicon {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1.125rem;
+  background-color: black;
+}
+
+/* welcome page */
+
+.welcome-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: solid black 2px;
+  padding-bottom: 100px;
+}
