@@ -9,6 +9,8 @@
 5. [Demo Walkthrough](https://github.com/gambinish/blockchain-developer-bootcamp-final-project#demo-recordings)
 6. [Running Tests](https://github.com/gambinish/blockchain-developer-bootcamp-final-project/blob/main/DOCS.md#running-tests)
 
+Worked as the Blockchain Developer on this project.
+
 This project scaffolds a full stack Web2/Web3 integration.
 
 I wanted to show one way that my team at work can extend our existing tech-stack (Node.js/React) into the Web3 space. I am still trying to improve and iterate on this.
